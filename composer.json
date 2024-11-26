@@ -25,7 +25,7 @@
         }
     ],
     "require": {
-        "flarum/core": "^1.6.0"
+        "flarum/core": "^1.2.0"
     },
     "authors": [
         {
