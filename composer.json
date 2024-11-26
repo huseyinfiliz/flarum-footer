@@ -11,11 +11,11 @@
         "source": "https://github.com/huseyinfiliz/flarum-footer",
         "forum": "https://discuss.flarum.org/d/36061"
     },
-    "homepage": "https://friendsofflarum.org",
+    "homepage": "https://huseyinfiliz.com.tr/sosyal",
     "funding": [
         {
             "type": "website",
-            "url": "https://opencollective.com/fof/donate"
+            "url": "https://huseyinfiliz.com.tr/"
         }
     ],
     "require": {
@@ -23,22 +23,14 @@
     },
     "authors": [
         {
-            "name": "David Sevilla Martín",
-            "email": "david.s@redevs.org",
+            "name": "Huseyin Filiz",
+            "email": "dev@huseyinfiliz.com.tr",
             "role": "Developer"
         }
     ],
-    "replace": {
-        "davis/flarum-ext-customfooter": "*"
-    },
-    "autoload": {
-        "psr-4": {
-            "FoF\\CustomFooter\\": "src/"
-        }
-    },
     "extra": {
         "flarum-extension": {
-            "title": "FoF Custom Footer",
+            "title": "Footer Links",
             "category": "feature",
             "icon": {
                 "name": "fas fa-columns",
@@ -47,7 +39,7 @@
             }
         },
         "flagrow": {
-            "discuss": "https://discuss.flarum.org/d/17774"
+            "discuss": "https://discuss.flarum.org/d/36061"
         },
         "flarum-cli": {
             "modules": {
@@ -55,14 +47,4 @@
             }
         }
     },
-    "require-dev": {
-        "flarum/phpstan": "*"
-    },
-    "scripts": {
-        "analyse:phpstan": "phpstan analyse",
-        "clear-cache:phpstan": "phpstan clear-result-cache"
-    },
-    "scripts-descriptions": {
-        "analyse:phpstan": "Run static analysis"
-    }
 }
