@@ -2,7 +2,13 @@
     "name": "huseyinfiliz/flarum-footer",
     "description": "Add fully compatible and responsive modern footer for flarum",
     "keywords": [
-        "flarum"
+        "footer",
+        "flarum",
+        "custom",
+        "links",
+        "responsive",
+        "compatible",
+        "simple"
     ],
     "type": "flarum-extension",
     "license": "MIT",
