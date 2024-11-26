@@ -1,6 +1,6 @@
 {
     "name": "huseyinfiliz/flarum-footer",
-    "description": "Add fully compatible and responsive modern footer for flarum",
+    "description": "Add fully compatible and responsive modern footer for Flarum",
     "keywords": [
         "footer",
         "flarum",
@@ -15,7 +15,7 @@
     "support": {
         "issues": "https://github.com/huseyinfiliz/flarum-footer/issues",
         "source": "https://github.com/huseyinfiliz/flarum-footer",
-        "forum": "https://discuss.flarum.org/d/36061"
+        "discuss": "https://discuss.flarum.org/d/36061"
     },
     "homepage": "https://huseyinfiliz.com.tr/sosyal",
     "funding": [
@@ -25,7 +25,7 @@
         }
     ],
     "require": {
-        "flarum/core": "^1.2.0"
+        "flarum/core": "^1.6.0"
     },
     "authors": [
         {
@@ -39,18 +39,10 @@
             "title": "Footer Links",
             "category": "feature",
             "icon": {
-                "name": "fas fa-columns",
-                "backgroundColor": "#e74c3c",
-                "color": "#fff"
-            }
-        },
-        "flagrow": {
-            "discuss": "https://discuss.flarum.org/d/36061"
-        },
-        "flarum-cli": {
-            "modules": {
-                "githubActions": true
+                "name": "fas fa-link",
+                "backgroundColor": "#3498db",
+                "color": "#ffffff"
             }
         }
-    },
+    }
 }
