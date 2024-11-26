@@ -1,6 +1,6 @@
 <?php
 
-namespace huseyinfiliz\flarum-footer;
+namespace huseyinfiliz\footerlinks;
 
 use Flarum\Api\Serializer\ForumSerializer;
 use Flarum\Extend;
